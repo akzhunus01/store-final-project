@@ -6,9 +6,23 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.0.0",
+    "bootstrap": "^5.2.3",
+    "browserslist": "^4.6.3",
+    "clear": "^0.1.0",
+    "core-js": "2",
+    "jquery": "^3.6.4",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "popper.js": "^1.16.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.1",
+    "sort-by": "^1.2.0",
+    "styled-components": "^5.3.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,16 +37,24 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "resolutions": {
+    "browserslist": "4.6.2",
+    "caniuse-lite": "1.0.30000974"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "husky": "^4.3.8"
+  },
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
+  "main": "index.js",
+  "license": "MIT"
 }
